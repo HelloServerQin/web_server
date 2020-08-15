@@ -1,0 +1,31 @@
+{
+  "name": "web_server",
+  "version": "1.0.0",
+  "description": "学习nodejs基本项目",
+  "main": "app.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "cross-env NODE_ENV=dev nodemon ./bin/www.js",
+    "prd": "cross-env NODE_ENV=production nodemon ./bin/www.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HelloServerQin/web_server.git"
+  },
+  "keywords": [],
+  "author": "serverqin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/HelloServerQin/web_server/issues"
+  },
+  "homepage": "https://github.com/HelloServerQin/web_server#readme",
+  "devDependencies": {
+    "cross-env": "^7.0.2"
+  },
+  "dependencies": {
+    "nodemon": "^2.0.4"
+  }
+}
