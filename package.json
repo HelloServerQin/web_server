@@ -24,7 +24,8 @@
   "homepage": "https://github.com/HelloServerQin/web_server#readme",
   "devDependencies": {
     "moment": "^2.27.0",
-    "mysql": "^2.18.1"
+    "mysql": "^2.18.1",
+    "run": "^1.4.0"
   },
   "dependencies": {
     "cross-env": "^7.0.2",

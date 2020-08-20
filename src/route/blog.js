@@ -6,7 +6,7 @@ const { getList,
 const {SuccessModel,ErrorModel}=require('../model/resModel');
 
 // 发送数据;
-const BlogRequest=async function(req,res){
+const BlogRequest= function(req,res){
     // 路由分发
     // 获取当前列表数据
     if(req.reqMethod=="GET"&&req.reqUrl=="/api/blog/list"){
